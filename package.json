@@ -38,5 +38,8 @@
     "eslint-config-artdeco": "1.0.1",
     "yarn-s": "1.1.0",
     "zoroaster": "3.11.2"
+  },
+  "dependencies": {
+    "alamode": "1.8.6"
   }
 }
