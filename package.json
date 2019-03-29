@@ -21,6 +21,13 @@
   "keywords": [
     "pompeii"
   ],
+  "maintainers": [
+    {
+      "name": "Art Deco",
+      "email": "artdeco@adc.sh",
+      "url": "https://artd.eco"
+    }
+  ],
   "author": "Anton <anton@adc.sh>",
   "license": "MIT",
   "bugs": {
@@ -28,15 +35,8 @@
   },
   "homepage": "https://github.com/artdecocode/pompeii#readme",
   "devDependencies": {
-    "@babel/cli": "7.0.0-beta.49",
-    "@babel/core": "7.0.0-beta.49",
-    "@babel/plugin-syntax-object-rest-spread": "7.0.0-beta.49",
-    "@babel/plugin-transform-modules-commonjs": "7.0.0-beta.49",
-    "@babel/register": "7.0.0-beta.49",
-    "babel-plugin-transform-rename-import": "2.2.0",
-    "eslint": "4.19.1",
-    "eslint-config-artdeco": "1.0.0",
+    "eslint-config-artdeco": "1.0.1",
     "yarn-s": "1.1.0",
-    "zoroaster": "2.1.0"
+    "zoroaster": "3.11.2"
   }
 }
