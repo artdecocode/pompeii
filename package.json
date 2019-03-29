@@ -22,14 +22,10 @@
   "keywords": [
     "pompeii"
   ],
-  "maintainers": [
-    {
-      "name": "Art Deco",
-      "email": "artdeco@adc.sh",
-      "url": "https://artd.eco"
-    }
+  "contributors": [
+    "Art Deco <hello@adc.sh>"
   ],
-  "author": "Anton <anton@adc.sh>",
+  "author": "Art Deco <artdeco@adc.sh>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/artdecocode/pompeii/issues"
