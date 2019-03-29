@@ -1,6 +1,6 @@
 {
   "name": "pompeii",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A lambda function to notify of npm releases.",
   "main": "src/index.js",
   "scripts": {
