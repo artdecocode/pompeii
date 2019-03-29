@@ -2,18 +2,20 @@
   "name": "pompeii",
   "version": "1.0.0",
   "description": "A lambda function to notify of npm releases.",
-  "main": "build",
+  "main": "build/index.js",
+  "module": "src/index.js",
   "scripts": {
-    "t": "zoroaster --babel",
+    "t": "zoroaster -a",
     "test": "yarn t test/spec",
-    "test-build": "BABEL_ENV=test-build yarn t test/spec",
-    "test-all": "yarn-s test test-build",
-    "test-watch": "yarn test --watch",
+    "test-build": "ALAMODE_ENV=test-build yarn test",
     "lint": "eslint .",
     "e": "node example",
-    "example/": "yarn e example/example.js",
-    "build": "babel src --out-dir build --source-maps"
+    "example/": "yarn e example/example",
+    "b": "alamode src -o build -s"
   },
+  "files": [
+    "build", "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/artdecocode/pompeii.git"
