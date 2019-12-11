@@ -1,3 +1,9 @@
+## 11 December 2019
+
+### [0.0.6](https://github.com/artdecocode/pompeii/compare/v0.0.5...v0.0.6)
+
+- [package] Publish `build`.
+
 ## 29 March 2019
 
 ### [0.0.3](https://github.com/artdecocode/pompeii/compare/v0.0.2...v0.0.3)
