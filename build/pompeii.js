@@ -1,13 +1,13 @@
-import { request } from 'https'
-import AWS from 'aws-sdk'
-import { stringify } from 'querystring'
+const { request } = require('https');
+let AWS = require('aws-sdk'); if (AWS && AWS.__esModule) AWS = AWS.default;
+const { stringify } = require('querystring');
 
 const sns = new AWS.SNS()
 const { env: { TOPIC_ARN: TopicArn, SERVER: server, KEY: key = 'super-secret-key' } } = process
 
 const NPM_FROM = /support@npmjs\.com/
 
-export const handler = async ({ Records }) => {
+const handler = async ({ Records }) => {
   const [{ ses: { mail } }] = Records
   const { commonHeaders: { from, subject } } = mail
   if (!NPM_FROM.test(from)) {
@@ -39,3 +39,6 @@ const publish = async (Message) => {
     Message,
   })
 }
+
+
+module.exports.handler = handler

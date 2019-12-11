@@ -8,6 +8,7 @@
     "test": "yarn t test/spec",
     "test-build": "ALAMODE_ENV=test-build yarn test",
     "lint": "eslint .",
+    "b": "alamode src -o build -s",
     "e": "node example",
     "example/": "yarn e example/example"
   },
@@ -33,11 +34,11 @@
   "homepage": "https://github.com/artdecocode/pompeii#readme",
   "devDependencies": {
     "eslint-config-artdeco": "1.0.1",
-    "yarn-s": "1.1.0",
-    "zoroaster": "3.11.2"
+    "yarn-s": "1.2.1",
+    "zoroaster": "4.1.2"
   },
   "dependencies": {
-    "alamode": "1.8.6",
-    "aws-sdk": "2.431.0"
+    "alamode": "3.2.0",
+    "aws-sdk": "2.587.0"
   }
 }
