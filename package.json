@@ -39,6 +39,6 @@
   },
   "dependencies": {
     "alamode": "3.2.0",
-    "aws-sdk": "2.587.0"
+    "aws-sdk": "2.814.0"
   }
 }
